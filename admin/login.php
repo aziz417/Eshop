@@ -41,7 +41,7 @@
 		<div class="button">
 			<a href="#">Training with live project</a>
 		</div><!-- button -->
-	</section><!-- content -->
+	</section><!-- content-->
 </div><!-- container -->
 </body>
 </html>
