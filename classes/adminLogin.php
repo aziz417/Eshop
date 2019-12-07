@@ -17,8 +17,10 @@ class adminLogin{
     }
 
     public function adminLogin($adminUser,$adminPass){
+
         $adminUser = $this->fm->validation($adminUser);
         $adminPass = $this->fm->validation($adminPass);
+
 
         $adminUser = mysqli_real_escape_string($this->db->link,$adminUser);
         $adminPass = mysqli_real_escape_string($this->db->link,$adminPass);
@@ -29,7 +31,9 @@ class adminLogin{
         }else{
             $query = "SELECT * FROM tbl_admin WHERE adminUser = '$adminUser' AND adminPass = '$adminPass'";
             $result = $this->db->select($query);
+
             if($result != false){
+
                 $value = $result->fetch_assoc();
                 Session::set("adminLogin",true);
                 Session::set("adminID", $value['admninID']);

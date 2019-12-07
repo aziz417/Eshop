@@ -5,6 +5,7 @@
         $adminUser = $_POST['adminUser'];
         $adminPass = md5($_POST['adminPass']);
 
+
         $loginChk = $al->adminLogin($adminUser,$adminPass);
     }
 ?>

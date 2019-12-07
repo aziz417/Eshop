@@ -13,8 +13,8 @@ body {
 ----------------------------------------------- */
 .floatleft{float:left;}
 .logo img {
-  margin-top: -15px;
-  width: 52px;
+	margin-top: -15px;
+	width: 185px!important;
 }
 .middle {
   margin-left: 22px;

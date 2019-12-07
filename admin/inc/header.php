@@ -46,12 +46,9 @@
         <div class="grid_12 header-repeat">
             <div id="branding">
                 <div class="floatleft logo">
-                    <img src="img/livelogo.png" alt="Logo" />
+                    <img src="img/fictionsoft.png" alt="Logo" width="600px "  height="50px"/>
 				</div>
-				<div class="floatleft middle">
-					<h1>Training with live project</h1>
-					<p>www.trainingwithliveproject.com</p>
-				</div>
+
                 <div class="floatright">
                     <div class="floatleft">
                         <img src="img/img-profile.jpg" alt="Profile Pic" /></div>
@@ -84,4 +81,3 @@
         </div>
         <div class="clear">
         </div>
-    
